@@ -1,0 +1,16 @@
+﻿Covariate,Time ,Original resolution,Details and sources
+Biome ,Static,30m,"WWF Terrestrial Ecoregions Of The World (Olson et al., 2001)"
+Soil Type,Static,250m,Africa Soil Profiles Database (AfSP) v1.2
+Land Cover ,1992-2020 (yearly),300 m,ESA CCI
+Travel Time to Cities ,"2000, 2015",1 km,"Nelson, A. (2008) Travel time to major cities: A global map of Accessibility. Office for Official Publications of the European Communities, Luxembourg. DOI:10.2788/95835, ISBN:978-92-79-09771-3."
+,,,
+,,,
+Urbanization Intensity Index,1975-2020 (5-year interval),1km,"European Commission, Joint Research Centre (JRC)"
+Population Density,1980-2020 (10-year interval),30 arc-seconds,Center for International Earth Science Information Network - CIESIN35
+Burned Area Fraction (BAF),1986-2021 (yearly),0.5°,"Guo & Li, 2024"
+Maximum cumulative Water Deficit (MCWD),1986-2021 (annual average),0.05°,Global CHIRPS 
+Temperature,1986-2021 (annual max and annual min),30 arc-seconds,WorldClim Vl Bioclimatic variables36
+Precipitation ,,,
+Elevation,Static,30m,NASA SRTM Digital Elevation38
+Slope ,,,
+Aspect,,,
