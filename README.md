@@ -177,12 +177,20 @@ earthengine authenticate
 
 Demo data are provided in `data/demo_data/` to allow users to run the analysis scripts without access to the full dataset.
 
+Three large demo files (> 100 MB) are hosted on Zenodo due to GitHub file size limits:
+**DOI: [10.5281/zenodo.19361480](https://zenodo.org/records/19361480)**
+
+Download and place these files in `data/demo_data/` before running the demo:
+- `aoi_pixel_level_annual_agbd_mt.csv`
+- `matchedAOI_pixel_level_annual_agbd_mt.csv`
+- `tiletttttt_l24a_all_topo_ls_lhs_nbr_dur8.csv`
+
 | Demo file | Used by | Description |
 |-----------|---------|-------------|
-| `matchedAOI_pixel_level_annual_agbd_mt.csv` | `05_analysis/biome_ATT_estimation.R` | Subset of matched treatment/control pixels with AGBD time series fro ATT estimation |
-| `aoi_pixel_level_annual_agbd_mt.csv` | `05_analysis/AOI_annual_AGBD_extraction_plotting.R` | AOI-wide annual AGBD estimates |
+| `matchedAOI_pixel_level_annual_agbd_mt.csv` *(Zenodo)* | `05_analysis/biome_ATT_estimation.R` | Subset of matched treatment/control pixels with AGBD time series for ATT estimation |
+| `aoi_pixel_level_annual_agbd_mt.csv` *(Zenodo)* | `05_analysis/AOI_annual_AGBD_extraction_plotting.R` | AOI-wide annual AGBD estimates |
+| `tiletttttt_l24a_all_topo_ls_lhs_nbr_dur8.csv` *(Zenodo)* | `03_modeling/Localized_GEDI-Landsat_XGBoost_Model.ipynb` | GEDI–Landsat features for one tile |
 | `biome1_AR_NT_matchedcells.csv` | `02_preprocessing/FR_covar_extraction_matching.R` | Example matched cell covariates for one biome |
-| `tiletttttt_l24a_all_topo_ls_lhs_nbr_dur8.csv` | `03_modeling/Localized_GEDI-Landsat_XGBoost_Model.ipynb` | GEDI–Landsat features for tile tttttt|
 | `ea_wwf_biomes.tif` | `05_analysis/` | Biome raster for the study region |
 | `forest_cube.geojson`, `forest_cube2.geojson` | `05_analysis/` | Demo forest restoration site boundaries |
 
