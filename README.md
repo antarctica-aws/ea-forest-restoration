@@ -240,7 +240,9 @@ See `requirements.txt` for Python dependencies.
 
 ## Data Availability
 
-All input datasets used in this study are publicly available (see Covariates table above for sources). Field plot aboveground biomass data used for model validation are available from [ForestPlots.net](https://www.forestplots.net) upon reasonable request and subject to the data sharing terms of that network. AGBD map outputs and matched panel data underlying the main results are available from the corresponding author upon reasonable request.
+All covariate datasets used in this study are publicly available (see Covariates table above for sources). Field plot aboveground biomass data used for model validation are available from [ForestPlots.net](https://www.forestplots.net) upon reasonable request and subject to the data sharing terms of that network. AGBD map outputs and matched panel data underlying the main results are available from the corresponding author upon reasonable request.
+
+Restoration site boundaries are available through [Verra's project registry](https://registry.verra.org). All other project-level data (site characteristics, intervention records, and matched panel data) are subject to data sharing agreements with the respective project organizations and are available upon reasonable request to the corresponding author.
 
 ## Note
 
