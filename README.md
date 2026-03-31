@@ -240,7 +240,7 @@ See `requirements.txt` for Python dependencies.
 
 ## Data Availability
 
-All covariate datasets used in this study are publicly available (see Covariates table above for sources). One field plot dataset used for model validation is from [ForestPlots.net](https://www.forestplots.net) and subject to the data sharing terms of that network. The three other field plot datasets described in the methods section subject to data sharing agreement with data collection prganizations/parties.
+All covariate datasets used in this study are publicly available (see Covariates table above for sources). One field plot dataset used for model validation is from [ForestPlots.net](https://www.forestplots.net) and subject to the data sharing terms of that network. The three other field plot datasets described in the methods section subject to data sharing agreement with data collection organizations/ parties.
 
 Restoration site boundaries are available through [Verra's project registry](https://registry.verra.org). All other project-level data (site characteristics, intervention records, and matched panel data) are subject to data sharing agreements with the respective project organizations.
 
